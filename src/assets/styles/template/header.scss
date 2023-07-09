@@ -1,0 +1,37 @@
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: $section-color;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 2px $box-shadow;
+  width: 100%;
+  justify-content: space-between;
+  .button-collapse{
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .user-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .user-image{
+      margin: 0 5px;
+      width: 32px;
+      height: 32px;
+      border-radius: 16px;
+      background-color: #BDBDBD;
+      overflow: hidden;
+      img{
+        width: 32px;
+        height: 32px;
+        object-fit: cover;
+      }
+    }
+    .user-name{
+        margin: 0 5px;
+      user-select: none;
+    }
+  }
+}
