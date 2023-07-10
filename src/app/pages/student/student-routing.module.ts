@@ -5,9 +5,13 @@ import {HomeComponent} from "./home/home.component";
 
 
 const studentRoutes:  Routes = [
-{path:'',
- component: HomeComponent
-}];
+{ path:'',
+  component: HomeComponent
+},{
+  path:'**',
+  redirectTo: ''
+}
+];
 
 
 @NgModule({
