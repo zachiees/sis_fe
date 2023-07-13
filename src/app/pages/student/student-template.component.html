@@ -1,7 +1,19 @@
-<div class="root-container main-container">
-  <sidebar/>
-  <div class="content-container">
-    <student-header />
-    <div class="content-body scrollbars"><router-outlet /></div>
-  </div>
-</div>
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened #sidebar>
+    <sidebar/>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="content-container">
+      <student-header (OnSidebarToggle)="sidebar.toggle()"/>
+      <div class="content-body scrollbars"><router-outlet /></div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<!--<div class="root-container main-container">-->
+<!--  <sidebar/>-->
+<!--  <div class="content-container">-->
+<!--    <student-header />-->
+<!--    <div class="content-body scrollbars"><router-outlet /></div>-->
+<!--  </div>-->
+<!--</div>-->
