@@ -30,8 +30,10 @@ header{
       }
     }
     .user-name{
-        margin: 0 5px;
+      margin: 0 5px;
       user-select: none;
+      color: #536DFE;
+      cursor: pointer;
     }
   }
 }

@@ -1,12 +1,12 @@
 @import "src/assets/styles/template/template";
-
-.controls{
-  display: inline-flex;
-  align-items: center;
-  *{
-    margin: 3px;
-  }
-}
 mat-stepper{
+  border-right: 2px solid $section-border;
+}
+.grades-container{
+  flex: 1;
 
+}
+.message{
+  color: gray;
+  text-align: center;
 }
