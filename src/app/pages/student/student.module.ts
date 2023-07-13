@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { GradesComponent } from './grades/grades.component';
 import { SubjectsComponent } from './subjects/subjects.component';
+import {MatSlideToggleModule} from "@angular/material/slide-toggle";
 
 
 @NgModule({
@@ -18,9 +19,10 @@ import { SubjectsComponent } from './subjects/subjects.component';
     GradesComponent,
     SubjectsComponent
   ],
-  imports: [
-    CommonModule,
-    StudentRoutingModule
-  ]
+    imports: [
+        CommonModule,
+        StudentRoutingModule,
+        MatSlideToggleModule
+    ]
 })
 export class StudentModule { }

@@ -5,6 +5,9 @@ import { AppComponent } from './app.component';
 import { AuthComponent } from './pages/auth/auth.component';
 import { TemplateComponent } from './pages/template/template.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatSliderModule } from "@angular/material/slider";
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 
 @NgModule({
@@ -16,7 +19,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatSliderModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
