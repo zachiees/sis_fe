@@ -5,11 +5,7 @@ import { AppComponent } from './app.component';
 import { AuthComponent } from './pages/auth/auth.component';
 import { TemplateComponent } from './pages/template/template.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatFormFieldModule } from "@angular/material/form-field";
-import { MatSliderModule } from "@angular/material/slider";
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { MatInputModule } from "@angular/material/input";
-
+import { MatModules } from "./mat-modules.module";
 
 @NgModule({
   declarations: [
@@ -21,10 +17,7 @@ import { MatInputModule } from "@angular/material/input";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatFormFieldModule,
-    MatSliderModule,
-    MatSlideToggleModule,
-    MatInputModule
+    MatModules
   ],
   providers: [],
   bootstrap: [AppComponent]
