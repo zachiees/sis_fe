@@ -2,22 +2,40 @@
   <H5>Grades</H5>
   <hr>
   <div class="d-flex flex-row">
-    <mat-form-field>
-      <mat-label>Select Level</mat-label>
-      <mat-select>
-        <mat-option> 1st year </mat-option>
-        <mat-option> 2nd year </mat-option>
-        <mat-option> 3rd year </mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <mat-label>Select Period</mat-label>
-      <mat-select>
-        <mat-option> Prelim </mat-option>
-        <mat-option> Midterm </mat-option>
-        <mat-option> Pre-finals </mat-option>
-      </mat-select>
-    </mat-form-field>
+    <mat-stepper linear="true" orientation="vertical">
+      <mat-step>
+        <br>
+        <ng-template matStepLabel>Select Year Level</ng-template>
+        <mat-form-field>
+          <mat-label>Select Level</mat-label>
+          <mat-select>
+            <mat-option> 1st year </mat-option>
+            <mat-option> 2nd year </mat-option>
+            <mat-option> 3rd year </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <br>
+        <button mat-raised-button matStepperNext color="primary">Next</button>
+      </mat-step>
+      <mat-step>
+        <ng-template matStepLabel>Select Period</ng-template>
+        <mat-form-field>
+          <mat-label>Select Period</mat-label>
+          <mat-select>
+            <mat-option> Prelim </mat-option>
+            <mat-option> Midterm </mat-option>
+            <mat-option> Pre-finals </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <br>
+        <button mat-raised-button matStepperNext color="primary">Next</button>
+      </mat-step>
+      <mat-step>
+        <br>
+        <ng-template matStepLabel>View Grades</ng-template>
+        <br>
+        <button mat-raised-button matStepperNext color="primary">View Grades</button>
+      </mat-step>
+    </mat-stepper>
   </div>
-
 </div>

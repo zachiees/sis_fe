@@ -1,1 +1,12 @@
 @import "src/assets/styles/template/template";
+
+.controls{
+  display: inline-flex;
+  align-items: center;
+  *{
+    margin: 3px;
+  }
+}
+mat-stepper{
+
+}
