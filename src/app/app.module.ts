@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatSliderModule } from "@angular/material/slider";
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatInputModule } from "@angular/material/input";
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     BrowserAnimationsModule,
     MatFormFieldModule,
     MatSliderModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
