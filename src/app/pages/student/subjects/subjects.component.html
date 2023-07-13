@@ -1,1 +1,20 @@
-<p>subjects works!</p>
+<div class="root-container">
+  <H5>Subjects</H5>
+  <hr>
+  <table>
+    <thead>
+      <tr>
+        <th>Code</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let i of [].constructor(10); index as ctr">
+        <td>SUBJECT0{{ ctr+1 }}</td>
+        <td>Subject {{ ctr+1}}</td>
+        <td>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
