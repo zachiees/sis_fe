@@ -8,6 +8,7 @@ import { MatSelectModule } from "@angular/material/select";
 import { MatSidenavModule} from "@angular/material/sidenav";
 import { MatButtonModule } from "@angular/material/button";
 import {MatStepperModule} from "@angular/material/stepper";
+import { MatMenuModule } from "@angular/material/menu";
 
 
 const modules =[
@@ -19,7 +20,8 @@ const modules =[
   MatSelectModule,
   MatSidenavModule,
   MatButtonModule,
-  MatStepperModule
+  MatStepperModule,
+  MatMenuModule
 ];
 
 @NgModule({

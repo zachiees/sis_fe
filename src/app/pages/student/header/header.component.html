@@ -1,9 +1,13 @@
 <header>
   <i class="bi bi-list button-collapse" (click)="toggleSidebar()"></i>
-  <div class="user-details">
+  <div class="user-details" [mat-menu-trigger-for]="menu">
     <div class="user-name">User</div>
     <div class="user-image">
       <img src="assets/img/common/user.png" alt="">
     </div>
+    <mat-menu #menu="matMenu" >
+      <button mat-menu-item>Account</button>
+      <button mat-menu-item>Logout</button>
+    </mat-menu>
   </div>
 </header>
