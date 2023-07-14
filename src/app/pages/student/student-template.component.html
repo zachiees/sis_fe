@@ -1,14 +1,16 @@
-<mat-sidenav-container>
-  <mat-sidenav mode="side" opened #sidebar>
-    <sidebar/>
-  </mat-sidenav>
-  <mat-sidenav-content>
-    <div class="content-container">
-      <student-header (OnSidebarToggle)="sidebar.toggle()"/>
-      <div class="content-body scrollbars"><router-outlet /></div>
-    </div>
-  </mat-sidenav-content>
-</mat-sidenav-container>
+<div class="main-container">
+  <student-header (OnSidebarToggle)="sidebar.toggle()"/>
+  <mat-sidenav-container>
+    <mat-sidenav mode="side" opened #sidebar>
+      <sidebar/>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div class="content-container scrollbars">
+        <router-outlet />
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
 
 <!--<div class="root-container main-container">-->
 <!--  <sidebar/>-->
