@@ -8,8 +8,8 @@
   max-height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  background-color: $primary;
-  border-right: 1px solid $section-border;
+  background-color: #FFF;
+  //border-right: 1px solid $section-border;
   //box-shadow: 0 0 5px 2px $box-shadow;
   align-items: flex-start;
   font-size: 15px;
@@ -57,7 +57,7 @@
   }
 }
 .side-nav a{
-  color: #FFF;
+  color: $text-active;
   width: 100%;
   text-align: left;
   text-decoration: none;
@@ -66,14 +66,14 @@
   margin: 1px 0;
   border: 1px solid rgba(0,0,0,0);
   &:hover{
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.1);
   }
   .bi {
     margin: 0 5px;
   }
   &.active{
-    background-color: rgba(0,0,0,.3);
-    color: #FFF;
+    background-color: rgba(0,0,0,.1);
+    color: #000;
   }
 }
 
