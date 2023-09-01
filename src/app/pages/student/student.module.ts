@@ -8,6 +8,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { GradesComponent } from './grades/grades.component';
 import { SubjectsComponent } from './subjects/subjects.component';
 import {MatModules} from "../../mat-modules.module";
+import { CarouselComponent } from './home/carousel/carousel.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import {MatModules} from "../../mat-modules.module";
     HeaderComponent,
     SidebarComponent,
     GradesComponent,
-    SubjectsComponent
+    SubjectsComponent,
+    CarouselComponent
   ],
     imports: [
         CommonModule,
