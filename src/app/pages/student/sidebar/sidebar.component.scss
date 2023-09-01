@@ -70,13 +70,13 @@
   &:hover{
     background-color: rgba(0,0,0,.1);
   }
-  .bi {
-    margin: 0 5px;
-  }
   &.active{
     font-weight: bold;
-    background-color: rgba(0,0,0,.1);
-    color: #000;
+
   }
+}
+.menu-icon{
+  width: 24px;
+  margin: 0 5px;
 }
 
