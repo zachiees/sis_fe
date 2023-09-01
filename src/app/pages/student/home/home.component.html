@@ -1,14 +1,57 @@
 <div class="root-container">
-  <div class="page-title">Home</div>
-  <hr>
-  <div class="item-box">
-    <div class="title">
-      Announcements
+<!--  <div class="item-box">-->
+<!--    <div class="title">-->
+<!--      Announcements-->
+<!--    </div>-->
+<!--    <div class="content">-->
+<!--      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit ante, rhoncus ac fringilla et, feugiat nec magna.-->
+<!--      Cras ac interdum dui, eget lacinia sem. Etiam sit amet lacus at ipsum rhoncus imperdiet. In pulvinar urna vitae dui lobortis,-->
+<!--      vel tristique lacus maximus. Integer aliquam vulputate varius. Nulla lacus nisi.-->
+<!--    </div>-->
+<!--  </div>-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="content">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit ante, rhoncus ac fringilla et, feugiat nec magna.
-      Cras ac interdum dui, eget lacinia sem. Etiam sit amet lacus at ipsum rhoncus imperdiet. In pulvinar urna vitae dui lobortis,
-      vel tristique lacus maximus. Integer aliquam vulputate varius. Nulla lacus nisi.
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div style="background-color: tomato; height: 400px;" class="slide-1">
+          <div class="slide-backdrop">
+            <div class="slide-title">Kursero LMS</div>
+            <div class="slide-description">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus sapien nisl, id ornare dui pharetra vitae.
+            </div>
+            <br>
+            <button class="btn btn-primary btn-oval">Go to LMS Website</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div style="background-color: royalblue; height: 400px;"
+             class="d-flex flex-row align-items-center justify-content-center">
+          <div class="slide-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus sapien nisl, id ornare dui pharetra vitae.
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div style="background-color: indianred; height: 400px;"
+             class="d-flex flex-row align-items-center justify-content-center">
+          <div class="slide-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus sapien nisl, id ornare dui pharetra vitae.
+          </div>
+        </div>
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 </div>
