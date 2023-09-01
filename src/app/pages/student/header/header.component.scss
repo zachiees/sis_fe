@@ -1,3 +1,55 @@
-@import "src/assets/styles/template/template";
+:host{
+  z-index: 100;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #FFF;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,.1);
+
+  .button-collapse{
+    color: #FFF;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .user-details{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    .user-image{
+      margin: 0 5px;
+      width: 32px;
+      height: 32px;
+      border-radius: 16px;
+      background-color: #BDBDBD;
+      overflow: hidden;
+      img{
+        width: 32px;
+        height: 32px;
+        object-fit: cover;
+      }
+    }
+    .user-name{
+      margin: 0 5px;
+      user-select: none;
+      color: #424242;
+      cursor: pointer;
+    }
+  }
+  .header-spacer{
+    flex: 1;
+  }
+  .header-logo{
+    margin: 0 20px;
+    height: 40px;
+  }
+}
+
 
 
