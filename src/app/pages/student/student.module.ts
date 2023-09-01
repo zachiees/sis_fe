@@ -9,6 +9,7 @@ import { GradesComponent } from './grades/grades.component';
 import { SubjectsComponent } from './subjects/subjects.component';
 import {MatModules} from "../../mat-modules.module";
 import { CarouselComponent } from './home/carousel/carousel.component';
+import { CardComponent } from './home/card/card.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { CarouselComponent } from './home/carousel/carousel.component';
     SidebarComponent,
     GradesComponent,
     SubjectsComponent,
-    CarouselComponent
+    CarouselComponent,
+    CardComponent
   ],
     imports: [
         CommonModule,
