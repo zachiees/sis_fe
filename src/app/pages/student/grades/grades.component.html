@@ -1,43 +1,15 @@
 <div class="root-container">
   <div class="page-title">Grades</div>
-  <div class="d-flex flex-row align-items-center">
-    <mat-stepper linear="true" orientation="vertical">
-      <mat-step>
-        <br>
-        <ng-template matStepLabel>Select Year Level</ng-template>
-        <mat-form-field>
-          <mat-label>Select Level</mat-label>
-          <mat-select>
-            <mat-option> 1st year </mat-option>
-            <mat-option> 2nd year </mat-option>
-            <mat-option> 3rd year </mat-option>
-          </mat-select>
-        </mat-form-field>
-        <br>
-        <button mat-raised-button matStepperNext color="primary">Next</button>
-      </mat-step>
-      <mat-step>
-        <ng-template matStepLabel>Select Period</ng-template>
-        <mat-form-field>
-          <mat-label>Select Period</mat-label>
-          <mat-select>
-            <mat-option> Prelim </mat-option>
-            <mat-option> Midterm </mat-option>
-            <mat-option> Pre-finals </mat-option>
-          </mat-select>
-        </mat-form-field>
-        <br>
-        <button mat-raised-button matStepperNext color="primary">Next</button>
-      </mat-step>
-      <mat-step>
-        <br>
-        <ng-template matStepLabel>View Grades</ng-template>
-        <br>
-        <button mat-raised-button matStepperNext color="primary">View Grades</button>
-      </mat-step>
-    </mat-stepper>
-    <div class="grades-container">
-      <div class="message">Select Year and Period</div>
-    </div>
+  <br>
+  <br>
+  <div class="d-flex flex-row align-items-center justify-content-start">
+    <mat-form-field >
+      <mat-label>Select Record </mat-label>
+      <mat-select>
+        <mat-option  [value]="'aa'">aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button type="button" class="btn btn-primary"> View </button>
   </div>
+
 </div>

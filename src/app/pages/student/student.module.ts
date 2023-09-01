@@ -7,10 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { GradesComponent } from './grades/grades.component';
 import { SubjectsComponent } from './subjects/subjects.component';
-import {MatModules} from "../../mat-modules.module";
+import { MatModules} from "../../mat-modules.module";
 import { CarouselComponent } from './home/carousel/carousel.component';
 import { CardComponent } from './home/card/card.component';
-
 
 @NgModule({
   declarations: [
@@ -21,7 +20,7 @@ import { CardComponent } from './home/card/card.component';
     GradesComponent,
     SubjectsComponent,
     CarouselComponent,
-    CardComponent
+    CardComponent,
   ],
     imports: [
         CommonModule,

@@ -1,12 +1,10 @@
-@import "src/assets/styles/template/template";
-mat-stepper{
-  border-right: 2px solid $section-border;
-}
-.grades-container{
-  flex: 1;
+@import "src/assets/styles/template/text-containers";
 
+
+.btn{
+  margin-top: -20px;
+  margin-left: 20px;
 }
-.message{
-  color: gray;
-  text-align: center;
+mat-form-field{
+  width: 400px;
 }
