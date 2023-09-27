@@ -22,10 +22,13 @@ import { CardComponent } from './home/card/card.component';
     CarouselComponent,
     CardComponent,
   ],
-    imports: [
-        CommonModule,
-        StudentRoutingModule,
-        MatModules
-    ]
+  exports: [
+    SidebarComponent
+  ],
+  imports: [
+    CommonModule,
+    StudentRoutingModule,
+    MatModules
+  ]
 })
 export class StudentModule { }

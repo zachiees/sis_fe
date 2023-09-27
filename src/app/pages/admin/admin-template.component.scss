@@ -1,0 +1,15 @@
+@import "src/assets/styles/template/scrollbars";
+
+.root-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  background-color: tomato;
+}
+mat-sidenav-container{
+  flex: 1;
+}
